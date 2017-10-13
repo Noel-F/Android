@@ -2,6 +2,8 @@ package noelfranceschi.com.ftf.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.android.volley.Request;
@@ -18,10 +20,20 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import noelfranceschi.com.ftf.R;
+import noelfranceschi.com.ftf.adapter.FoodTruckAdapter;
 import noelfranceschi.com.ftf.model.FoodTruck;
+import noelfranceschi.com.ftf.view.ItemDecorator;
 
 
 public class FoodTrucksListActivity extends AppCompatActivity {
+
+    //: Vars
+    private FoodTruckAdapter adapter;
+    private ArrayList<FoodTruck> trucks = new ArrayList<>();
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +73,15 @@ public class FoodTrucksListActivity extends AppCompatActivity {
                 }
 
 //                System.out.print("THIS IS THE FOOD TRUCK NAME: " + foodTruckList.get(0).getName());
+
+                RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_foodtruck);
+                recyclerView.setHasFixedSize(true);
+                adapter = new FoodTruckAdapter(foodTruckList);
+                recyclerView.setAdapter(adapter);
+                LinearLayoutManager layoutManager = new LinearLayoutManager(getBaseContext());
+                layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+                recyclerView.setLayoutManager(layoutManager);
+                recyclerView.addItemDecoration(new ItemDecorator(0,0,0, 10));
 
 
             }

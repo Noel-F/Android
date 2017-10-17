@@ -1,5 +1,5 @@
 # Android
-Welcome, Here's a collection of Android Apps I built. Cronologically ordered by date, the most recent project starts above.
+Welcome, Here's a collection of Android Apps I built. Cronologically ordered by date, the most recent project starts above. There is also a few school projects listed below.
 
 
 ## Food Truck Finder
@@ -13,8 +13,8 @@ Welcome, Here's a collection of Android Apps I built. Cronologically ordered by 
 
 
 
-## Project 7
-Day 7 project. Simple app that demonstrates CRUD functionaltiy. Input a persons info and save it to a file. Then display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
+## School Project 5
+Simple app that demonstrates Common C.R.U.D functionaltiy. Input a persons info and save it to list. Click on a list item to  display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
 
 ### Built With
 * [Widgets](https://developer.android.com/design/patterns/widgets.html)
@@ -32,12 +32,11 @@ Day 7 project. Simple app that demonstrates CRUD functionaltiy. Input a persons 
 
 
 
-## Project 6
-Day 6 project. Simple app that demonstrates weather in a location via a widget component. Choose a theme and a location to display current weather. Click on the icon to show weather details for the next 7 days. 
+## School Project 4
+Simple app that demonstrates weather in a location via a widget component. Choose a theme and a location to display current weather. Click on the icon to show weather details for the next 7 days. 
 
 ### Built With
-* [OpenWeather API](https://openweathermap.org/api)
-* [Widgets](https://developer.android.com/design/patterns/widgets.html)
+* [OpenWeather API](https://openweathermap.org/api)     * [Widgets](https://developer.android.com/design/patterns/widgets.html)
 * [AppWidgetProvider](https://developer.android.com/reference/android/appwidget/AppWidgetProvider.html)
 * [AppWidgetManager](https://developer.android.com/reference/android/appwidget/AppWidgetManager.html)
 * [IntentService](https://developer.android.com/reference/android/app/IntentService.html)
@@ -56,8 +55,8 @@ Day 6 project. Simple app that demonstrates weather in a location via a widget c
 
 
 
-## Project 5
-Day 5 project. Music player for Android. Plays 3 songs in order or can be shuffled or repeated. Music will keep playing even if the app has be closed. Just slide down the notification center to display settings.
+## School Project 3
+Music player for Android. Plays 3 songs in order or can be shuffled or repeated. Music will keep playing even if the app has be closed. Just slide down the notification center to display the settings.
 
 ### Built With
 * [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
@@ -76,8 +75,8 @@ Day 5 project. Music player for Android. Plays 3 songs in order or can be shuffl
 
 
 
-## Project 4
-Day 4 project. This app demonstrates the Goople Maps API for Android. Enables user to add/save a place name, details and a photo of any location around the world by tapping on the screen. User can also edit previous locations information. User permissions for location and camera are requiered to be able to save data and get current location.
+## School Project 2
+This app demonstrates the Goople Maps API for Android. Enables user to add/save a place name, details and a photo of any location around the world by tapping on the screen. User can also edit previous location information. User permissions for location and camera are requiered to be able to save data and get current location.
 
 ### Built With
 * [Google Maps Android API](https://developers.google.com/maps/documentation/android-api/)
@@ -94,8 +93,8 @@ Day 4 project. This app demonstrates the Goople Maps API for Android. Enables us
 
 
 
-## Project 3
-Day 3 project. Notification component that demonstrates recent news from the New York Times API every minute. When clicking on the notification, it has the option to save article to a list or click to open up the article in the web browser.
+## School Project 1
+Notification component that demonstrates recent news from the New York Times API every minute. When clicking on the notification, it has the option to save the article to a list or click to open the article in the browser.
 
 ### Built With
 * [NY Times API](https://developer.nytimes.com/)

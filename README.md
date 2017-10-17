@@ -14,7 +14,7 @@ Welcome, Here's a collection of Android Apps I built. Cronologically ordered by 
 
 
 ## Project 7
-Day 7 project. Simple app that demonstrates widget functionality for a quick crud type app. Input a persons info and display the details in another screen.
+Day 7 project. Simple app that demonstrates CRUD functionaltiy. Input a persons info and save it to a file. Then display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
 
 ### Built With
 * [Widgets](https://developer.android.com/design/patterns/widgets.html)

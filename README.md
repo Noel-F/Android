@@ -42,7 +42,7 @@ Day 6 project. Simple app that demonstrates weather in a location via a widget c
 * [AppWidgetManager](https://developer.android.com/reference/android/appwidget/AppWidgetManager.html)
 * [IntentService](https://developer.android.com/reference/android/app/IntentService.html)
 * [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
-* [External Storage](https://developer.android.com/guide/topics/data/data-storage.html)
+* [InternalStorage](https://developer.android.com/training/basics/data-storage/files.html)
 * [Apache Commons.IO](http://mvnrepository.com/artifact/commons-io/commons-io)
 * [PreferenceManager](https://developer.android.com/reference/android/preference/PreferenceManager.html)
 * [FileInputStream](https://developer.android.com/reference/java/io/FileInputStream.html)
@@ -91,3 +91,24 @@ Day 4 project. This app demonstrates the Goople Maps API for Android. Enables us
 
 
 ![alt text](https://www.noelfranceschi.com/android-apps/p4.png)
+
+
+
+## Project 3
+Day 3 project. Notification component that demonstrates recent news from the New York Times API every minute. When clicking on the notification, it has the option to save article to a list or click to open up the article in the web browser.
+
+### Built With
+* [NY Times API](https://developer.nytimes.com/)
+* [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
+* [Internal Storage](https://developer.android.com/guide/topics/data/data-storage.html)
+* [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
+* [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
+* [Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
+* [NotificationManager](https://developer.android.com/reference/android/app/NotificationManager.html)
+* [Base Adapter](https://developer.android.com/reference/android/widget/BaseAdapter.html)
+* [Services](https://developer.android.com/guide/components/services.html)
+* [AlarmManager](https://developer.android.com/reference/android/app/AlarmManager.html)
+* [ListFragment](https://developer.android.com/reference/android/app/ListFragment.html)
+
+
+![alt text](https://www.noelfranceschi.com/android-apps/p3.png)

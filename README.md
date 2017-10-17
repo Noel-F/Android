@@ -1,13 +1,16 @@
 # Android
-Welcome, Here's a collection of Android Apps I built. Cronologically ordered by date, the most recent project starts above. There is also a few school projects listed below.
+Welcome, Here's a collection of Android Apps I built. Cronologically ordered by date, the most recent project starts above. There is also a few school projects I added.
 
 
 ## Food Truck Finder
-. . .
+This is the Android version of the Food Truck Finder App that is also built for * [iOS](https://github.com/Noel-F/iOS-11). This app demonstrates a list of recently saved food truck locations.Users must be login in order to be saved.  Click on a list item and view details about the food truck such as the name, food type, average cost, reviews and location. All the data is being saved, added, edited by a custom built * [Food Truck API](https://github.com/Noel-F/MongoDB) that I built.
 
 ### Built With
+* [RecyclerView](https://developers.google.com/maps/)
+* [MongoDB](https://developers.google.com/maps/)
 * [Google Maps API](https://developers.google.com/maps/)
-
+* [Location](https://developers.google.com/maps/)
+* [Volley](https://developers.google.com/maps/)
 
 ![alt text](https://www.noelfranceschi.com/android-apps/foodtruckfinder.png)
 

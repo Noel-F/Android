@@ -3,7 +3,7 @@ Welcome, Here's a collection of Android Apps I built. Chronologically ordered by
 
 
 ## Food Truck Finder
-This is the Android version of the Food Truck Finder App that is also built for [iOS](https://github.com/Noel-F/iOS-11). This app demonstrates a list of recently saved food truck locations.Users must be login in order to be saved.  Click on a list item and view details about the food truck such as the name, food type, average cost, reviews and location. All the data is being saved, added, edited by a custom built [Food Truck API](https://github.com/Noel-F/MongoDB) that I built.
+This is the Android version of the Food Truck Finder App that is also built for [iOS](https://github.com/Noel-F/iOS-11). This app demonstrates a list of recently saved food trucks and thier locations. Users must be loggged or signup in order to be save trucks. Click on a list item and view details about the food truck such as the name, food type, average cost, reviews and location. All the data is being saved, added, edited by a custom built [Food Truck API](https://github.com/Noel-F/MongoDB) that I built.
 
 ### Built With
 * [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
@@ -20,7 +20,7 @@ This is the Android version of the Food Truck Finder App that is also built for 
 
 
 ## School Project 5
-Simple app that demonstrates Common C.R.U.D functionaltiy. Input a persons info and save it to list. Click on a list item to  display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
+Simple app that demonstrates common C.R.U.D functionaltiy. Input a persons details and save it to list. Click on a list item to  display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
 
 ### Built With
 * [Widgets](https://developer.android.com/design/patterns/widgets.html)

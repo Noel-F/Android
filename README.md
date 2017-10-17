@@ -1,16 +1,19 @@
 # Android
-Welcome, Here's a collection of Android Apps I built. Cronologically ordered by date, the most recent project starts above. There is also a few school projects I added.
+Welcome, Here's a collection of Android Apps I built. Chronologically ordered by the most recent project above. There is also a few school projects I added.
 
 
 ## Food Truck Finder
-This is the Android version of the Food Truck Finder App that is also built for * [iOS](https://github.com/Noel-F/iOS-11). This app demonstrates a list of recently saved food truck locations.Users must be login in order to be saved.  Click on a list item and view details about the food truck such as the name, food type, average cost, reviews and location. All the data is being saved, added, edited by a custom built * [Food Truck API](https://github.com/Noel-F/MongoDB) that I built.
+This is the Android version of the Food Truck Finder App that is also built for [iOS](https://github.com/Noel-F/iOS-11). This app demonstrates a list of recently saved food truck locations.Users must be login in order to be saved.  Click on a list item and view details about the food truck such as the name, food type, average cost, reviews and location. All the data is being saved, added, edited by a custom built [Food Truck API](https://github.com/Noel-F/MongoDB) that I built.
 
 ### Built With
-* [RecyclerView](https://developers.google.com/maps/)
-* [MongoDB](https://developers.google.com/maps/)
+* [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
+* [MongoDB](https://www.mongodb.com/)
 * [Google Maps API](https://developers.google.com/maps/)
-* [Location](https://developers.google.com/maps/)
-* [Volley](https://developers.google.com/maps/)
+* [Location](https://developer.android.com/reference/android/location/Location.html)
+* [Volley](https://developer.android.com/training/volley/index.html)
+* [CardView](https://developer.android.com/reference/android/support/v7/widget/CardView.html)
+* [ViewHolder](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ViewHolder.html)
+* [ItemDecoration](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ItemDecoration.html)
 
 ![alt text](https://www.noelfranceschi.com/android-apps/foodtruckfinder.png)
 

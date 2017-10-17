@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FranceschiNoel_CE03</string>
+    <string name="noti_title">Title</string>
+    <string name="noti_span">Description</string>
+</resources>

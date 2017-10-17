@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="STATE_IDLE">0x010010</integer>
+    <integer name="STATE_INITIALIZE">0x010020</integer>
+    <integer name="STATE_PREPARING">0x010030</integer>
+    <integer name="STATE_PREPARED">0x010040</integer>
+    <integer name="STATE_STARTED">0x010050</integer>
+    <integer name="STATE_PAUSED">0x010060</integer>
+    <integer name="STATE_STOPPED">0x010070</integer>
+    <integer name="STATE_COMPLETED">0x010080</integer>
+
+    <integer name="NOTIFICATION_ID">0x020010</integer>
+
+</resources>

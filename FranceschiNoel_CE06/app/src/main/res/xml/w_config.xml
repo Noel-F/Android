@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Theme Chooser">
+        <ListPreference
+            android:key="com.fullsail.franceschinoel_ce06.THEME_CHOOSER"
+            android:title="Themes"
+            android:summary="Please choose a theme..."
+            android:entries="@array/configuration_themes_titles"
+            android:entryValues="@array/configuration_themes_values"
+            android:defaultValue="Light"
+            android:dialogTitle="Available Themes" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Location Chooser">
+        <ListPreference
+            android:key="com.fullsail.franceschinoel_ce06.LOCATION_CHOOSER"
+            android:title="Locations"
+            android:summary="Please choose a location..."
+            android:entries="@array/configuration_locations_titles"
+            android:entryValues="@array/configuration_locations_values"
+            android:defaultValue="Kissimmee,FL"
+            android:dialogTitle="Available Locations" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

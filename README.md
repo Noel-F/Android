@@ -13,6 +13,25 @@ Welcome, Here's a collection of Android Apps I built. Cronologically ordered by 
 
 
 
+## Project 7
+Day 7 project. Simple app that demonstrates CRUD functionaltiy. Input a persons info and save it to a file. Then display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
+
+### Built With
+* [Widgets](https://developer.android.com/design/patterns/widgets.html)
+* [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
+* [AppWidgetProvider](https://developer.android.com/reference/android/appwidget/AppWidgetProvider.html)
+* [AppWidgetManager](https://developer.android.com/reference/android/appwidget/AppWidgetManager.html)
+* [RemoteViewService](https://developer.android.com/reference/android/widget/RemoteViewsService.html)
+* [Base Adapter](https://developer.android.com/reference/android/widget/BaseAdapter.html)
+* [FileInputStream](https://developer.android.com/reference/java/io/FileInputStream.html)
+* [ObjectInputStream](https://developer.android.com/reference/java/io/ObjectInputStream.html)
+* [Apache Commons.IO](http://mvnrepository.com/artifact/commons-io/commons-io)
+
+
+![alt text](https://www.noelfranceschi.com/android-apps/p7.png)
+
+
+
 ## Project 6
 Day 6 project. Simple app that demonstrates weather in a location via a widget component. Choose a theme and a location to display current weather. Click on the icon to show weather details for the next 7 days. 
 
@@ -37,19 +56,19 @@ Day 6 project. Simple app that demonstrates weather in a location via a widget c
 
 
 
-## Project 7
-Day 7 project. Simple app that demonstrates CRUD functionaltiy. Input a persons info and save it to a file. Then display the persons details in a new screen. Also added a widget component, drag a widget on the home screen and be able to add people from there. 
+## Project 5
+Day 5 project. Music player for Android. Plays 3 songs in order or can be shuffled or repeated. Music will keep playing even if the app has be closed. Just slide down the notification center to display settings.
 
 ### Built With
-* [Widgets](https://developer.android.com/design/patterns/widgets.html)
+* [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
 * [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
-* [AppWidgetProvider](https://developer.android.com/reference/android/appwidget/AppWidgetProvider.html)
-* [AppWidgetManager](https://developer.android.com/reference/android/appwidget/AppWidgetManager.html)
-* [RemoteViewService](https://developer.android.com/reference/android/widget/RemoteViewsService.html)
-* [Base Adapter](https://developer.android.com/reference/android/widget/BaseAdapter.html)
-* [FileInputStream](https://developer.android.com/reference/java/io/FileInputStream.html)
-* [ObjectInputStream](https://developer.android.com/reference/java/io/ObjectInputStream.html)
-* [Apache Commons.IO](http://mvnrepository.com/artifact/commons-io/commons-io)
+* [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
+* [ServiceConnection](https://developer.android.com/reference/android/content/ServiceConnection.html)
+* [Bitmap](https://developer.android.com/reference/android/graphics/Bitmap.html)
+* [Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
+* [NotificationManager](https://developer.android.com/reference/android/app/NotificationManager.html)
+* [Binder](https://developer.android.com/reference/android/os/Binder.html)
+* [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p7.png)
+![alt text](https://www.noelfranceschi.com/android-apps/p5.png)

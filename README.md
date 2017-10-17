@@ -62,13 +62,32 @@ Day 5 project. Music player for Android. Plays 3 songs in order or can be shuffl
 ### Built With
 * [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
 * [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
+* [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
 * [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
 * [ServiceConnection](https://developer.android.com/reference/android/content/ServiceConnection.html)
 * [Bitmap](https://developer.android.com/reference/android/graphics/Bitmap.html)
+* [Binder](https://developer.android.com/reference/android/os/Binder.html)
 * [Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
 * [NotificationManager](https://developer.android.com/reference/android/app/NotificationManager.html)
-* [Binder](https://developer.android.com/reference/android/os/Binder.html)
-* [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
+
 
 
 ![alt text](https://www.noelfranceschi.com/android-apps/p5.png)
+
+
+
+## Project 4
+Day 4 project. This app demonstrates the Goople Maps API for Android. Enables user to add/save a place name, details and a photo of any location around the world by tapping on the screen. User can also edit previous locations information. User permissions for location and camera are requiered to be able to save data and get current location.
+
+### Built With
+* [Google Maps Android API](https://developers.google.com/maps/documentation/android-api/)
+* [MapFragment](https://developers.google.com/android/reference/com/google/android/gms/maps/MapFragment)
+* [Intents & Intent Filters](https://developer.android.com/guide/components/intents-filters.html)
+* [InternalStorage](https://developer.android.com/training/basics/data-storage/files.html)
+* [AlertDialog](https://developer.android.com/reference/android/app/AlertDialog.html)
+* [LocationManager](https://developer.android.com/reference/android/location/LocationManager.html)
+* [Bitmap](https://developer.android.com/reference/android/graphics/Bitmap.html)
+
+
+
+![alt text](https://www.noelfranceschi.com/android-apps/p4.png)

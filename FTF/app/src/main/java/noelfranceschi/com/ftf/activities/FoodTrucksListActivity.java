@@ -41,6 +41,7 @@ public class FoodTrucksListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_food_trucks_list);
 
         String url = "https://finalwebtest.com/api/v1/foodtruck";
+        
         final ArrayList<FoodTruck> foodTruckList = new ArrayList<>();
 
         final JsonArrayRequest getTrucks = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {

@@ -1,11 +1,15 @@
 package noelfranceschi.com.ftf.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Created by noelfranceschi on 10/10/17.
  */
 
-public class FoodTruck {
+public class FoodTruck implements Parcelable {
 
+    //: Vars
     private String id = "";
     private String name = "";
     private String foodType = "";
@@ -45,4 +49,40 @@ public class FoodTruck {
         this.latitude = latitude;
         this.longitude = longitude;
     }
+
+    //: Make parcel
+    private FoodTruck(Parcel in) {
+        id = in.readString();
+        name = in.readString();
+        foodType = in.readString();
+        avgCost = in.readDouble();
+        latitude = in.readDouble();
+        longitude = in.readDouble();
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(id);
+        parcel.writeString(name);
+        parcel.writeString(foodType);
+        parcel.writeDouble(avgCost);
+        parcel.writeDouble(latitude);
+        parcel.writeDouble(longitude);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Parcelable.Creator<FoodTruck> CREATOR = new Parcelable.Creator<FoodTruck>() {
+        public FoodTruck createFromParcel(Parcel in) {
+            return new FoodTruck(in);
+        }
+
+        public FoodTruck[] newArray(int size) {
+            return new FoodTruck[size];
+        }
+    };
+
 }

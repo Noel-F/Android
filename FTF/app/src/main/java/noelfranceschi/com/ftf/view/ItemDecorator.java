@@ -10,6 +10,7 @@ import android.view.View;
 
 public class ItemDecorator extends RecyclerView.ItemDecoration {
 
+    //: Vars
     private final int left;
     private final int top;
     private final int right;

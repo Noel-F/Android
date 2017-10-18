@@ -13,6 +13,7 @@ import noelfranceschi.com.ftf.model.FoodTruck;
 
 public class FoodTruckHolder extends RecyclerView.ViewHolder {
 
+    //: Vars
     private TextView truckName;
     private TextView foodType;
     private TextView avgCost;

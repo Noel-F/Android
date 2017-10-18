@@ -16,18 +16,13 @@ import noelfranceschi.com.ftf.model.FoodTruck;
  * Created by noelfranceschi on 10/13/17.
  */
 
-public class FoodTruckAdapter extends RecyclerView.Adapter<FoodTruckHolder> {
+public class FoodTruckAdapter extends RecyclerView.Adapter<FoodTruckHolder>{
 
+    //: Vars
     private ArrayList<FoodTruck> trucks;
 
     public FoodTruckAdapter(ArrayList<FoodTruck> trucks) {
         this.trucks = trucks;
-    }
-
-    @Override
-    public FoodTruckHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View truckCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_foodtruck, parent, false);
-        return new FoodTruckHolder(truckCard);
     }
 
     @Override
@@ -36,10 +31,23 @@ public class FoodTruckAdapter extends RecyclerView.Adapter<FoodTruckHolder> {
         final FoodTruck truck = trucks.get(position);
         holder.updateUI(truck);
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FoodTrucksListActivity.getFoodTrucksListActivity().loadFoodTruckDetailActivity(truck);
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return trucks.size();
+    }
+
+    @Override
+    public FoodTruckHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+
+        View truckCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_foodtruck, parent, false);
+        return new FoodTruckHolder(truckCard);
     }
 }

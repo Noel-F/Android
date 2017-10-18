@@ -47,6 +47,10 @@ public class FoodTrucksListActivity extends AppCompatActivity {
         addTruckBtn = (FloatingActionButton) findViewById(R.id.addTruckBtn);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
+        String url = "https://finalwebtest.com/api/v1/foodtruck";
+        
+        final ArrayList<FoodTruck> foodTruckList = new ArrayList<>();
+
         addTruckBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

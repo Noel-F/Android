@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FranceschiNoel_CE05</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="NOTIFICATION_CLICKED">com.fullsail.franceschinoel_ce05.NOTIFICATION_CLICKED</string>
+    <string name="PREVIOUS_CLICKED">com.fullsail.franceschinoel_ce05.PREVIOUS_CLICKED</string>
+    <string name="PLAY_AND_PAUSE_CLICKED">com.fullsail.franceschinoel_ce05.PLAY_AND_PAUSE_CLICKED</string>
+    <string name="NEXT_CLICKED">com.fullsail.franceschinoel_ce05.NEXT_CLICKED</string>
+    <string name="SEEKER_UPDATE">com.fullsail.franceschinoel_ce05.SEEKER_UPDATE</string>
+
+    <string name="NOTIFICATION_UPDATE">com.fullsail.franceschinoel_ce05.NOTIFICATION_UPDATE</string>
+    <string name="east">East</string>
+    <string name="dave">Dave</string>
+
+    <string name="SEEKER_PROGRESS">SEEKER_PROGRESS</string>
+    <string name="MEDIA_LENGTH">MEDIA_LENGTH</string>
+    <string name="MEDIA_POSITION">MEDIA_POSITION</string>
+</resources>

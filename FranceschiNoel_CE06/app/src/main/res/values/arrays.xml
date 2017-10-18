@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="configuration_themes_titles">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+    <array name="configuration_themes_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+    <array name="configuration_locations_titles">
+        <item>Kissimmee, FL</item>
+        <item>Boston, MA</item>
+        <item>Chicago, IL</item>
+    </array>
+    <array name="configuration_locations_values">
+        <item>Kissimmee,FL</item>
+        <item>Boston,MA</item>
+        <item>Chicago,IL</item>
+    </array>
+</resources>

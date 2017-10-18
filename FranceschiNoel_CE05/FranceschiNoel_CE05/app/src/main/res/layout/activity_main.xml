@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_fragment"
+        android:name="com.fullsail.franceschinoel_ce05.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout="@layout/fragment_main" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/fab_shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/player_shuffle" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/fab_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/player_repeat" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/primary_container"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <SeekBar
+            android:id="@+id/fab_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/player_previous" />
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/secondary_container"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_stop"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/player_stop" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_play_pause"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/player_play" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/player_next" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.design.widget.CoordinatorLayout>

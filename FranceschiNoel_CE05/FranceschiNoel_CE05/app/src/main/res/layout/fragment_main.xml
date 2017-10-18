@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/player_album_sogn_title"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/player_album_artist_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/east"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/player_album_artist_name"
+        android:layout_width="216dp"
+        android:layout_height="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/dave"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/player_album_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

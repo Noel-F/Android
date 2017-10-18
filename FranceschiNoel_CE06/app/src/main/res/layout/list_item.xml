@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    tools:ignore="PrivateResource">
+
+    <ImageView
+        android:id="@+id/list_Image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_cloud_circle_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/list_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/list_Image"
+        android:text="CITY"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/list_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_city"
+        android:layout_toEndOf="@+id/list_Image"
+        android:text="Description"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/list_height_and_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_description"
+        android:layout_toEndOf="@+id/list_Image"
+        android:text="height and low"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/list_updated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_height_and_low"
+        android:layout_toEndOf="@+id/list_Image"
+        android:text="last Updated"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

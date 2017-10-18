@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fullsail.franceschinoel_ce07.activities.DetailActivity">
+    <item
+        android:id="@+id/detail_menu_delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+</menu>

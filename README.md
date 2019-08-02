@@ -16,7 +16,6 @@ This is the Android version of the Food Truck Finder App that is also built for 
 * [ItemDecoration](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ItemDecoration.html)
 
 ![alt text](http://www.noelfranceschi.com/android-apps/foodtruckfinder.png)
-![foodtruckfinder](link-to-image)
 
 
 ## School Project 5

@@ -15,8 +15,8 @@ This is the Android version of the Food Truck Finder App that is also built for 
 * [ViewHolder](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ViewHolder.html)
 * [ItemDecoration](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ItemDecoration.html)
 
-![alt text](https://www.noelfranceschi.com/android-apps/foodtruckfinder.png)
-
+![alt text](http://www.noelfranceschi.com/android-apps/foodtruckfinder.png)
+![foodtruckfinder](link-to-image)
 
 
 ## School Project 5
@@ -34,7 +34,7 @@ Simple app that demonstrates common C.R.U.D functionaltiy. Input a persons detai
 * [Apache Commons.IO](http://mvnrepository.com/artifact/commons-io/commons-io)
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p7.png)
+![alt text](http://www.noelfranceschi.com/android-apps/p7.png)
 
 
 
@@ -57,7 +57,7 @@ Simple app that demonstrates weather in a location via a widget component. Choos
 * [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences.html)
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p6.png)
+![alt text](http://www.noelfranceschi.com/android-apps/p6.png)
 
 
 
@@ -77,7 +77,7 @@ Music player for Android. Plays 3 songs in order or can be shuffled or repeated.
 
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p5.png)
+![alt text](http://www.noelfranceschi.com/android-apps/p5.png)
 
 
 
@@ -95,7 +95,7 @@ This app demonstrates the Goople Maps API for Android. Enables user to add/save 
 
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p4.png)
+![alt text](http://www.noelfranceschi.com/android-apps/p4.png)
 
 
 
@@ -116,4 +116,4 @@ Notification component that demonstrates recent news from the New York Times API
 * [ListFragment](https://developer.android.com/reference/android/app/ListFragment.html)
 
 
-![alt text](https://www.noelfranceschi.com/android-apps/p3.png)
+![alt text](http://www.noelfranceschi.com/android-apps/p3.png)
